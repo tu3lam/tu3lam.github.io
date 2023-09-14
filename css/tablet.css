@@ -1,0 +1,26 @@
+@media screen and (min-width: 576px) {
+  @media screen and (max-width: 992px) {
+    .row {
+      padding-left: 6%
+    }
+  }
+
+  #projects .row {
+    gap: 3rem!important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  section > .container-fluid #nav-label {
+    display: none;
+  }
+
+  .certificate {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .certificate img {
+    width: 80%;
+  }
+}
